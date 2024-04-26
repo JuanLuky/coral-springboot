@@ -13,6 +13,6 @@ public class Shop {
     private Long id;
     private String title;
     private String image;
-    private String brand;
     private Float price;
+    private String brand;
 }
