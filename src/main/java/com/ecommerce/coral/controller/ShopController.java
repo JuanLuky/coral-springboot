@@ -1,7 +1,7 @@
 package com.ecommerce.coral.controller;
 
-import com.ecommerce.coral.shop.Shop;
-import com.ecommerce.coral.shop.ShopRepository;
+import com.ecommerce.coral.domain.shop.Shop;
+import com.ecommerce.coral.domain.shop.ShopRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

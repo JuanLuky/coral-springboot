@@ -1,4 +1,4 @@
-package com.ecommerce.coral.shop;
+package com.ecommerce.coral.domain.shop;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
