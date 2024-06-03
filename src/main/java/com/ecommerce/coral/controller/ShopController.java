@@ -20,12 +20,13 @@ public class ShopController {
 
     private final ShopRepository shopRepository;
     private final UserRepository userRepository;
-//    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/v1/shops") // Specify a unique path for shops
     public @ResponseBody List<Shop> getShops() {
         return shopRepository.findAll();
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/v1/users") // Specify a unique path for users
     public @ResponseBody List<User> getUsers() {
         return userRepository.findAll();
