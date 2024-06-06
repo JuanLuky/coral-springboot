@@ -4,8 +4,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
-@Table(name = "ecommerce")
-@Entity(name = "ecommerce")
+@Entity
+@Table(name = "tb_products")
 public class Shop {
 
     @Id
